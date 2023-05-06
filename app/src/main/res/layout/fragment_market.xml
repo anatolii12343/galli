@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/market_bg" />
+
+    <ImageView
+        android:id="@+id/old_man"
+        android:layout_width="135dp"
+        android:layout_height="226dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/old_man" />
+
+    <ImageView
+        android:id="@+id/potato1"
+        android:layout_width="67dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/grusha"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/potato2"
+        android:layout_width="43dp"
+        android:layout_height="44dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="200dp"
+        android:layout_marginBottom="8dp"
+        android:rotation="20"
+        android:src="@drawable/potato"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/potato3"
+        android:layout_width="53dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="90dp"
+        android:rotation="220"
+        android:src="@drawable/apple2"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/potato4"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/morkov"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/potato5"
+        android:layout_width="90dp"
+        android:layout_height="88dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/pumpkin"
+        android:visibility="gone"
+        tools:visibility="visible" />
+</FrameLayout>

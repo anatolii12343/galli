@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_home" />
+
+    <ImageView
+        android:id="@+id/grandma"
+        android:layout_width="93.3dp"
+        android:layout_height="234dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/grandma" />
+
+    <ImageView
+        android:id="@+id/snup"
+        android:layout_width="21.9dp"
+        android:layout_height="65.06dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="50dp"
+
+        android:src="@drawable/snup" />
+</FrameLayout>

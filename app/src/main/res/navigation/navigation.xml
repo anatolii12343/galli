@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/houseFragment">
+
+    <fragment
+        android:id="@+id/caveFragment"
+        android:name="com.example.magic.screens.level.CaveFragment"
+        android:label="CaveFragment"
+        tools:layout="@layout/fragment_cave" />
+    <fragment
+        android:id="@+id/forestFragment"
+        android:name="com.example.magic.screens.level.ForestFragment"
+        android:label="ForestFragment"
+        tools:layout="@layout/fragment_forest" />
+    <fragment
+        android:id="@+id/houseFragment"
+        android:name="com.example.magic.screens.level.HouseFragment"
+        android:label="HouseFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/marketFragment"
+        android:name="com.example.magic.screens.level.MarketFragment"
+        android:label="MarketFragment"
+        tools:layout="@layout/fragment_market" />
+    <dialog
+        android:id="@+id/inventoryFragment"
+        android:name="com.example.magic.screens.InventoryFragment"
+        android:label="InventoryFragment" />
+    <fragment
+        android:id="@+id/gameOverFragment"
+        android:name="com.example.magic.screens.GameOverFragment"
+        android:label="GameOverFragment" />
+</navigation>
